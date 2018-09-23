@@ -1,0 +1,898 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="jTabbedPane2" min="-2" pref="429" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jTabbedPane2" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JTabbedPane" name="jTabbedPane2">
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jTabbedPane2MouseClicked"/>
+      </Events>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="tab1">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="cc" green="cc" red="ff" type="rgb"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="&#xe40;&#xe07;&#xe34;&#xe19;&#xe44;&#xe14;&#xe49;&#xe1e;&#xe36;&#xe07;&#xe1b;&#xe23;&#xe30;&#xe40;&#xe21;&#xe34;&#xe19;">
+                <Property name="tabTitle" type="java.lang.String" value="&#xe40;&#xe07;&#xe34;&#xe19;&#xe44;&#xe14;&#xe49;&#xe1e;&#xe36;&#xe07;&#xe1b;&#xe23;&#xe30;&#xe40;&#xe21;&#xe34;&#xe19;"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <EmptySpace min="0" pref="424" max="32767" attributes="0"/>
+                  <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="62" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jLabel14" min="-2" pref="74" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
+                                  <Component id="salaryYear" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="jLabel20" alignment="0" min="-2" pref="74" max="-2" attributes="0"/>
+                              <Component id="jLabel18" alignment="0" min="-2" pref="74" max="-2" attributes="0"/>
+                              <Component id="jLabel16" alignment="0" min="-2" pref="74" max="-2" attributes="0"/>
+                              <Component id="jLabel21" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="bonus" min="-2" pref="77" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jLabel15" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="dividend" min="-2" pref="77" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jLabel17" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="salary" min="-2" pref="77" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jLabel11" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="anotherIncome" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="sumIncome" alignment="0" max="32767" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jLabel19" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel22" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace pref="53" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <EmptySpace min="0" pref="543" max="32767" attributes="0"/>
+                  <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="104" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel14" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="salary" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="salaryYear" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel11" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel16" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="bonus" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel15" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel18" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="dividend" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel17" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel20" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="anotherIncome" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel19" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel21" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="sumIncome" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel22" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace pref="314" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JSpinner" name="dividend">
+              <Events>
+                <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="dividendStateChanged"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JSpinner" name="bonus">
+              <Events>
+                <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="bonusStateChanged"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel11">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xe1a;&#xe32;&#xe17;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel14">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xe40;&#xe07;&#xe34;&#xe19;&#xe40;&#xe14;&#xe37;&#xe2d;&#xe19;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel15">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xe1a;&#xe32;&#xe17;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel16">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xe42;&#xe1a;&#xe19;&#xe31;&#xe2a; "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel17">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xe1a;&#xe32;&#xe17;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel18">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xe40;&#xe07;&#xe34;&#xe19;&#xe1b;&#xe31;&#xe19;&#xe1c;&#xe25;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel19">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xe1a;&#xe32;&#xe17;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel20">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xe23;&#xe32;&#xe22;&#xe44;&#xe14;&#xe49;&#xe2d;&#xe37;&#xe48;&#xe19;&#xe46;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="sumIncome">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="                      0"/>
+              </Properties>
+              <Events>
+                <EventHandler event="inputMethodTextChanged" listener="java.awt.event.InputMethodListener" parameters="java.awt.event.InputMethodEvent" handler="sumIncomeInputMethodTextChanged"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="sumIncomeActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel21">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xe23;&#xe27;&#xe21;&#xe23;&#xe32;&#xe22;&#xe44;&#xe14;&#xe49;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel22">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xe1a;&#xe32;&#xe17;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JSpinner" name="salary">
+              <Events>
+                <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="salaryStateChanged"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="salaryYear">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="cc" green="cc" red="ff" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#xe23;&#xe27;&#xe21;&#xe22;&#xe2d;&#xe14;&#xe17;&#xe31;&#xe49;&#xe07;&#xe1b;&#xe35;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="salaryYearStateChanged"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="salaryYearActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JSpinner" name="anotherIncome">
+              <Events>
+                <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="anotherIncomeStateChanged"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="sumReduce">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="cc" green="ff" red="cc" type="rgb"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="&#xe04;&#xe48;&#xe32;&#xe43;&#xe0a;&#xe49;&#xe08;&#xe48;&#xe32;&#xe22; &#xe04;&#xe48;&#xe32;&#xe25;&#xe14;&#xe2b;&#xe22;&#xe48;&#xe2d;&#xe19;">
+                <Property name="tabTitle" type="java.lang.String" value="&#xe04;&#xe48;&#xe32;&#xe43;&#xe0a;&#xe49;&#xe08;&#xe48;&#xe32;&#xe22; &#xe04;&#xe48;&#xe32;&#xe25;&#xe14;&#xe2b;&#xe22;&#xe48;&#xe2d;&#xe19;"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="jLabel12" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel10" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jLabel26" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel24" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel25" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel23" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace max="32767" attributes="0"/>
+                                                  <Component id="joint" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace max="32767" attributes="0"/>
+                                                  <Component id="parent" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" alignment="1" attributes="0">
+                                                  <Component id="jLabel5" min="-2" pref="130" max="-2" attributes="0"/>
+                                                  <EmptySpace max="32767" attributes="0"/>
+                                                  <Component id="childIn" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Component id="jLabel13" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Component id="jLabel8" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel27" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="95" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="life" max="32767" attributes="0"/>
+                                          <Component id="RMF" max="32767" attributes="0"/>
+                                          <Component id="LTF" max="32767" attributes="0"/>
+                                          <Component id="travelIn" max="32767" attributes="0"/>
+                                          <Component id="buyHouse" max="32767" attributes="0"/>
+                                          <Component id="buyIn" max="32767" attributes="0"/>
+                                          <Component id="social" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="health" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="childInMoney" max="32767" attributes="0"/>
+                                          <Component id="parentMoney" max="32767" attributes="0"/>
+                                          <Component id="out" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="self" max="32767" attributes="0"/>
+                                          <Component id="marry" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="donateEdu" min="-2" pref="91" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jLabel28" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel29" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="donate" max="32767" attributes="0"/>
+                                          <Component id="sumDe" max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabel30" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel41" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel38" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel37" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel36" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel34" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel35" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel32" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel33" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel31" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel43" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel44" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel46" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel45" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel39" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel40" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="jLabel42" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="donateJing" min="-2" pref="91" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jLabel47" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel1" alignment="1" min="-2" pref="14" max="-2" attributes="0"/>
+                          <Group type="103" alignment="1" groupAlignment="3" attributes="0">
+                              <Component id="out" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel46" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel2" alignment="3" min="-2" pref="14" max="-2" attributes="0"/>
+                          <Component id="self" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel45" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="joint" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="103" alignment="1" groupAlignment="3" attributes="0">
+                              <Component id="marry" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel43" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="childIn" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="103" alignment="1" groupAlignment="3" attributes="0">
+                              <Component id="childInMoney" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel44" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel7" alignment="3" min="-2" pref="14" max="-2" attributes="0"/>
+                          <Component id="parent" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="parentMoney" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel30" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="jLabel8" min="-2" pref="14" max="-2" attributes="0"/>
+                          <Group type="103" alignment="1" groupAlignment="3" attributes="0">
+                              <Component id="life" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel31" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" alignment="1" groupAlignment="3" attributes="0">
+                              <Component id="health" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel33" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="jLabel12" min="-2" pref="14" max="-2" attributes="0"/>
+                          <Group type="103" alignment="1" groupAlignment="3" attributes="0">
+                              <Component id="social" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel32" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="jLabel13" min="-2" pref="14" max="-2" attributes="0"/>
+                          <Group type="103" alignment="1" groupAlignment="3" attributes="0">
+                              <Component id="RMF" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel35" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="jLabel23" min="-2" pref="14" max="-2" attributes="0"/>
+                          <Group type="103" alignment="1" groupAlignment="3" attributes="0">
+                              <Component id="LTF" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel34" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="jLabel25" min="-2" pref="14" max="-2" attributes="0"/>
+                          <Group type="103" alignment="1" groupAlignment="3" attributes="0">
+                              <Component id="travelIn" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel36" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="jLabel24" min="-2" pref="14" max="-2" attributes="0"/>
+                          <Group type="103" alignment="1" groupAlignment="3" attributes="0">
+                              <Component id="buyHouse" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel37" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="jLabel26" min="-2" pref="14" max="-2" attributes="0"/>
+                          <Group type="103" alignment="1" groupAlignment="3" attributes="0">
+                              <Component id="buyIn" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel38" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel27" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="donateEdu" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel40" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel42" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="donateJing" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel47" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel28" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="donate" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel39" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel29" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel41" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="sumDe" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="54" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xe04;&#xe48;&#xe32;&#xe43;&#xe0a;&#xe49;&#xe08;&#xe48;&#xe32;&#xe22;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xe04;&#xe48;&#xe32;&#xe25;&#xe14;&#xe2b;&#xe22;&#xe48;&#xe2d;&#xe19;&#xe2a;&#xe48;&#xe27;&#xe19;&#xe15;&#xe31;&#xe27;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel3">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xe04;&#xe48;&#xe32;&#xe25;&#xe14;&#xe2b;&#xe22;&#xe48;&#xe2d;&#xe19;&#xe04;&#xe39;&#xe48;&#xe2a;&#xe21;&#xe23;&#xe2a;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel5">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xe1a;&#xe38;&#xe15;&#xe23;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel7">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xe25;&#xe14;&#xe2b;&#xe22;&#xe48;&#xe2d;&#xe19;&#xe1a;&#xe34;&#xe14;&#xe32;-&#xe21;&#xe32;&#xe23;&#xe14;&#xe32;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel8">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xe40;&#xe1a;&#xe35;&#xe49;&#xe22;&#xe1b;&#xe23;&#xe30;&#xe01;&#xe31;&#xe19;&#xe0a;&#xe35;&#xe27;&#xe34;&#xe15;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel10">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xe40;&#xe1a;&#xe35;&#xe49;&#xe22;&#xe1b;&#xe23;&#xe30;&#xe01;&#xe31;&#xe19;&#xe2a;&#xe38;&#xe02;&#xe20;&#xe32;&#xe1e;&#xe1a;&#xe34;&#xe14;&#xe32;-&#xe21;&#xe32;&#xe23;&#xe14;&#xe32;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel12">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xe40;&#xe07;&#xe34;&#xe19;&#xe2a;&#xe21;&#xe17;&#xe1a;&#xe01;&#xe2d;&#xe07;&#xe17;&#xe38;&#xe19;&#xe1b;&#xe23;&#xe30;&#xe01;&#xe31;&#xe19;&#xe2a;&#xe31;&#xe07;&#xe04;&#xe21;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel13">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xe04;&#xe48;&#xe32;&#xe0b;&#xe37;&#xe49;&#xe2d;&#xe2b;&#xe19;&#xe48;&#xe27;&#xe22;&#xe25;&#xe07;&#xe17;&#xe38;&#xe19;&#xe43;&#xe19;&#xe01;&#xe2d;&#xe07;&#xe17;&#xe38;&#xe19;&#xe23;&#xe27;&#xe21;&#xe40;&#xe1e;&#xe37;&#xe48;&#xe2d;&#xe01;&#xe32;&#xe23;&#xe40;&#xe25;&#xe35;&#xe49;&#xe22;&#xe07;&#xe0a;&#xe35;&#xe1e;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel23">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xe04;&#xe48;&#xe32;&#xe0b;&#xe37;&#xe49;&#xe2d;&#xe2b;&#xe19;&#xe48;&#xe27;&#xe22;&#xe25;&#xe07;&#xe17;&#xe38;&#xe19;&#xe43;&#xe19;&#xe01;&#xe2d;&#xe07;&#xe17;&#xe38;&#xe19;&#xe23;&#xe27;&#xe21;&#xe2b;&#xe38;&#xe49;&#xe19;&#xe23;&#xe30;&#xe22;&#xe30;&#xe22;&#xe32;&#xe27;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel24">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xe14;&#xe2d;&#xe01;&#xe40;&#xe1a;&#xe35;&#xe49;&#xe22;&#xe40;&#xe07;&#xe34;&#xe19;&#xe01;&#xe39;&#xe49;&#xe22;&#xe37;&#xe21;&#xe40;&#xe1e;&#xe37;&#xe48;&#xe2d;&#xe0b;&#xe37;&#xe49;&#xe2d; &#xe40;&#xe0a;&#xe48;&#xe32;&#xe0b;&#xe37;&#xe49;&#xe2d; &#xe2a;&#xe23;&#xe49;&#xe32;&#xe07;&#xe17;&#xe35;&#xe48;&#xe2d;&#xe22;&#xe39;&#xe48;&#xe2d;&#xe32;&#xe28;&#xe31;&#xe22;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel25">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xe04;&#xe48;&#xe32;&#xe40;&#xe14;&#xe34;&#xe19;&#xe17;&#xe32;&#xe07;&#xe17;&#xe48;&#xe2d;&#xe07;&#xe40;&#xe17;&#xe35;&#xe48;&#xe22;&#xe27;&#xe20;&#xe32;&#xe22;&#xe43;&#xe19;&#xe1b;&#xe23;&#xe30;&#xe40;&#xe17;&#xe28;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel26">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xe04;&#xe48;&#xe32;&#xe0b;&#xe37;&#xe49;&#xe2d;&#xe2a;&#xe34;&#xe19;&#xe04;&#xe49;&#xe32;&#xe2b;&#xe23;&#xe37;&#xe2d;&#xe1a;&#xe23;&#xe34;&#xe01;&#xe32;&#xe23;&#xe20;&#xe32;&#xe22;&#xe43;&#xe19;&#xe1b;&#xe23;&#xe30;&#xe40;&#xe17;&#xe28;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel27">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xe40;&#xe07;&#xe34;&#xe19;&#xe1a;&#xe23;&#xe34;&#xe08;&#xe32;&#xe04;&#xe2a;&#xe19;&#xe31;&#xe1a;&#xe2a;&#xe19;&#xe38;&#xe19;&#xe01;&#xe32;&#xe23;&#xe28;&#xe36;&#xe01;&#xe29;&#xe32; / &#xe01;&#xe35;&#xe2c;&#xe32; &#xe08;&#xe48;&#xe32;&#xe22;&#xe08;&#xe23;&#xe34;&#xe07;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel28">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xe40;&#xe07;&#xe34;&#xe19;&#xe1a;&#xe23;&#xe34;&#xe08;&#xe32;&#xe04;&#xe2d;&#xe37;&#xe48;&#xe19;&#xe46;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel29">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xe23;&#xe27;&#xe21;&#xe04;&#xe48;&#xe32;&#xe43;&#xe0a;&#xe49;&#xe08;&#xe48;&#xe32;&#xe22; &#xe23;&#xe32;&#xe22;&#xe01;&#xe32;&#xe23;&#xe25;&#xe14;&#xe2b;&#xe22;&#xe48;&#xe2d;&#xe19;&#xe41;&#xe25;&#xe30;&#xe40;&#xe07;&#xe34;&#xe19;&#xe44;&#xe14;&#xe49;&#xe17;&#xe35;&#xe48;&#xe44;&#xe14;&#xe49;&#xe23;&#xe31;&#xe1a;&#xe01;&#xe32;&#xe23;&#xe22;&#xe01;&#xe40;&#xe27;&#xe49;&#xe19;&#xe20;&#xe32;&#xe29;&#xe35; "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JSpinner" name="childIn">
+              <Events>
+                <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="childInStateChanged"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JSpinner" name="parent">
+              <Events>
+                <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="parentStateChanged"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="joint">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xe22;&#xe37;&#xe48;&#xe19;&#xe23;&#xe48;&#xe27;&#xe21;&#xe01;&#xe31;&#xe19;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jointActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JSpinner" name="out">
+              <Events>
+                <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="outStateChanged"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JSpinner" name="self">
+              <Events>
+                <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="selfStateChanged"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JSpinner" name="parentMoney">
+            </Component>
+            <Component class="javax.swing.JSpinner" name="childInMoney">
+            </Component>
+            <Component class="javax.swing.JSpinner" name="life">
+              <Events>
+                <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="lifeStateChanged"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JSpinner" name="health">
+              <Events>
+                <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="healthStateChanged"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JSpinner" name="social">
+              <Events>
+                <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="socialStateChanged"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JSpinner" name="RMF">
+              <Events>
+                <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="RMFStateChanged"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JSpinner" name="LTF">
+              <Events>
+                <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="LTFStateChanged"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JSpinner" name="travelIn">
+              <Events>
+                <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="travelInStateChanged"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JSpinner" name="buyHouse">
+              <Events>
+                <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="buyHouseStateChanged"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JSpinner" name="buyIn">
+              <Events>
+                <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="buyInStateChanged"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JSpinner" name="donateEdu">
+              <Events>
+                <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="donateEduStateChanged"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JSpinner" name="donate">
+              <Events>
+                <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="donateStateChanged"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JSpinner" name="marry">
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel30">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xe1a;&#xe32;&#xe17;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel31">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xe1a;&#xe32;&#xe17;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel32">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xe1a;&#xe32;&#xe17;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel33">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xe1a;&#xe32;&#xe17;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel34">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xe1a;&#xe32;&#xe17;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel35">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xe1a;&#xe32;&#xe17;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel36">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xe1a;&#xe32;&#xe17;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel37">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xe1a;&#xe32;&#xe17;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel38">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xe1a;&#xe32;&#xe17;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel39">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xe1a;&#xe32;&#xe17;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel40">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xe1a;&#xe32;&#xe17;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel41">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xe1a;&#xe32;&#xe17;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel43">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xe1a;&#xe32;&#xe17;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel44">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xe1a;&#xe32;&#xe17;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel45">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xe1a;&#xe32;&#xe17;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel46">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xe1a;&#xe32;&#xe17;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel42">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xe17;&#xe35;&#xe48;&#xe25;&#xe14;&#xe2b;&#xe22;&#xe48;&#xe2d;&#xe19;&#xe44;&#xe14;&#xe49;(2&#xe40;&#xe17;&#xe48;&#xe32;&#xe41;&#xe15;&#xe48;&#xe44;&#xe21;&#xe48;&#xe40;&#xe01;&#xe34;&#xe19; 10%&#xe2b;&#xe25;&#xe31;&#xe07;&#xe2b;&#xe31;&#xe01;&#xe04;&#xe48;&#xe32;&#xe43;&#xe0a;&#xe49;&#xe08;&#xe48;&#xe32;&#xe22;)"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JSpinner" name="donateJing">
+              <Events>
+                <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="donateJingStateChanged"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel47">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xe1a;&#xe32;&#xe17;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JSpinner" name="sumDe">
+              <Events>
+                <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="sumDeStateChanged"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="net">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="cc" green="cc" red="0" type="rgb"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="&#xe20;&#xe32;&#xe29;&#xe35;&#xe17;&#xe35;&#xe48;&#xe15;&#xe49;&#xe2d;&#xe07;&#xe0a;&#xe33;&#xe23;&#xe30;">
+                <Property name="tabTitle" type="java.lang.String" value="&#xe20;&#xe32;&#xe29;&#xe35;&#xe17;&#xe35;&#xe48;&#xe15;&#xe49;&#xe2d;&#xe07;&#xe0a;&#xe33;&#xe23;&#xe30;"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="83" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="taxRe" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jLabel48" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="taxPlus" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="105" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="taxbefore" max="32767" attributes="0"/>
+                                  <Component id="netSum" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace pref="105" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="81" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="netSum" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="taxbefore" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel9" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="taxRe" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel48" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="taxPlus" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="365" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel4">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xe20;&#xe32;&#xe29;&#xe35;&#xe2b;&#xe31;&#xe01; &#xe13; &#xe17;&#xe35;&#xe48;&#xe08;&#xe48;&#xe32;&#xe22;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel6">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xe23;&#xe32;&#xe22;&#xe44;&#xe14;&#xe49;&#xe1e;&#xe36;&#xe07;&#xe1b;&#xe23;&#xe30;&#xe40;&#xe21;&#xe34;&#xe19; &#xe2a;&#xe33;&#xe2b;&#xe23;&#xe31;&#xe1a;&#xe04;&#xe33;&#xe19;&#xe27;&#xe19;&#xe20;&#xe32;&#xe29;&#xe35;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel9">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xe20;&#xe32;&#xe29;&#xe35;&#xe17;&#xe35;&#xe48;&#xe17;&#xe48;&#xe32;&#xe19;&#xe2a;&#xe32;&#xe21;&#xe32;&#xe23;&#xe16;&#xe02;&#xe2d;&#xe04;&#xe37;&#xe19;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel48">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xe20;&#xe32;&#xe29;&#xe35;&#xe17;&#xe35;&#xe48;&#xe17;&#xe48;&#xe32;&#xe19;&#xe15;&#xe49;&#xe2d;&#xe07;&#xe08;&#xe48;&#xe32;&#xe22;&#xe40;&#xe1e;&#xe34;&#xe48;&#xe21;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="netSum">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="               0"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="netSumActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="taxRe">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="               0"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="taxPlus">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="               0"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JSpinner" name="taxbefore">
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
